@@ -1,0 +1,10 @@
+p {
+  font-family: Lato;
+}
+
+.jumbotron {
+  background-image: url("https://live.staticflickr.com/5603/15791842595_e476b2e2f4_b.jpg");
+}
+body {
+  background-color: rgb(167, 168, 231);
+}
