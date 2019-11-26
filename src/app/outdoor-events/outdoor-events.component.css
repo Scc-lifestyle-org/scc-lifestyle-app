@@ -1,0 +1,100 @@
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.parent {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+.three {
+  width: 33.33%;
+  height: 250px;
+}
+.three-long {
+  width: 33.33%;
+  height: 500px;
+}
+.four {
+  width: 25%;
+  height: 250px;
+}
+.two {
+  width: 50%;
+  height: 500px;
+}
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-align: center;
+}
+.bg-one {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/17947919_fPFAq2HIgyPN5hA.png);}
+.bg-two {background-image: url(https://tracietravels.com/wp-content/uploads/2017/10/31-5059-post/Seattles-best-viewpoints-6.jpg);}
+.bg-three {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/17948108_YboRd1ET14LYByt.png);}
+.bg-four {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/17948271_4VVntL4u6420P4o.jpg);}
+.bg-five {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/17948348_eXohAhBOf4FXQ7N.jpg);}
+.bg-six {background-image: url(https://images.squarespace-cdn.com/content/v1/571e9ca79f7266c5847c85bf/1515971865757-8UPC590BG7MJ8FWP1LYG/ke17ZwdGBToddI8pDm48kNJVbQl_ABU21BcBkEsrRWZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxzvGT6eBlbVKW1Lp3C2GioOfCpYPCqVpL0uVm3WwvWI/download.png);}
+.bg-seven {background-image: url(https://cdn-files.apstatic.com/hike/7004771_medium_1554310760.jpg);}
+.bg-eight {background-image: url(https://i.pinimg.com/originals/8d/1c/1f/8d1c1fbfa1d9d2451f2a1016386241da.jpg);}
+.bg-nine {background-image: url(https://postcardstoseattle.com/wp-content/uploads/2019/06/seattle-hikes-lake.jpg);}
+.bg-ten {background-image: url(https://mediad.publicbroadcasting.net/p/kuow/files/styles/x_large/public/201511/20151124-nutcracker.jpg);}
+.bg-eleven {background-image: url(https://www.bellevuedowntown.com/_files/images/101818-magic-season-header-image.jpg);}
+.bg-twelve {background-image: url(https://images.ctfassets.net/w1ym0diafaku/7n52yl7IV9tECDiB7xPdN8/e8adbe3b85caa18b62b4a7ed363db4fe/DSC_0637_w_snow.jpg);}
+.bg-thirteen {background-image: url(https://www.billboard.com/files/styles/480x270/public/media/friendship-cruise-2018-billboard-1548.jpg);}
+.bg-fourteen {background-image: url(https://www.heavyonthejam.com/wp-content/uploads/2018/08/08-10-18_DPV_3621_JRAD_Seattle_Showbox_by_Dave_Vann-1.jpg);}
+.bg-fifteen {background-image: url(https://curiocity.com/seattle/wp-content/uploads/2019/06/monkey-loft-.jpg);}
+.bg-sixteen {background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/19/19/3c/31/dimitriou-s-jazz-alley.jpg);}
+.bg-seventeen {background-image: url(https://images.vailresorts.com/image/upload/ar_4:3,c_fill,dpr_3.0,f_auto,g_auto,q_auto/v1/Stevens%20Pass/Heros/Brochure/Homepage/Hero-September3-BikePano/FirstSnow_9-27-19_Hero-4/Snowfall_10-8-19_Hero1-1/Hero-AerialPano-SnowyScenic_10-09-19-1.jpg);}
+.bg-eighteen {background-image: url(https://www.crystalmountainresort.com/-/media/widen/crystal-mountain/cm-winter/2017-03-31-cm-zach-doleac-zd-crystal-1497-jpg.ashx?h=1350&w=2400&hash=E9AD47715E103E4487276979EDEC61D4);}
+.bg-nineteen {background-image: url(https://crosscut.com/sites/default/files/styles/max_2000x2000/public/images/articles/sounders-2_-art.jpg?itok=7Dk6tqjK);}
+.bg-twenty {background-image: url(https://clutchpoints.com/wp-content/uploads/2019/08/3-potential-training-camp-roster-cuts-for-the-Seattle-Seahawks.jpg);}
+.bg-twentyone {background-image: url(https://media.spokesman.com/photos/2019/04/26/Rangers_Mariners_Baseball.JPG.jpg);}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+.parent:hover span, .parent:focus span {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(199, 230, 219, 0.75);
+}
+span {
+  color: rgb(0, 124, 128); /* Good thing we set a fallback color! */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20%;
+  position: relative;
+  display: none;
+  font-size: 150%;
+  z-index: 4;
+}
