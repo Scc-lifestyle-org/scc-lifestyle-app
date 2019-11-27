@@ -1,7 +1,7 @@
 .costco {
   font-family: Lato;
   font-size: 20px;
-  background-color: #55d6ab00;
+  background-color: #304451;
   width: 100%;
   border: 5px solid rgb(0, 0, 0);
   padding: 50px;
@@ -21,24 +21,31 @@ left:0;
 background-color: rgba(0,0,0,0.5);
 }
 
-.title-pic img {
-  width: 100%;
-
+.title-pic {
+  width: 600px;
+  height: 100%;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
 .jumbotron {
   background-image: url("https://live.staticflickr.com/5603/15791842595_e476b2e2f4_b.jpg");
 }
+
 body {
-  background-color: #55d6aa;
+  background-color: #304451;
 }
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+p {
+font-size: 20px;
+color: black;
 }
