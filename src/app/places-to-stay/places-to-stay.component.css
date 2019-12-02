@@ -1,12 +1,3 @@
-/*---------------------------------------------------*/
-/*                  My Styles:                       */
-/*---------------------------------------------------*/
-
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,7 +25,7 @@ li {
 }
 
 img {
-  width: 250px;
+  width: 300px;
   height: 250px;
 }
 
@@ -77,67 +68,9 @@ header p {
 
 
 /* My Tweaks - Center the boxes on the page */
-
-div {
-width:900px;
-height:400px;
-padding-top: 40px;
-margin: 0 auto;
+.box3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: rgb(35,35,35);
 }
-
-
-
-/* Source: http://matthamm.com/box-shadow-curl.html */
-
-ul.box, ul.box2, ul.box3, ul.box4 {
-position: relative;
-z-index: 1; /* prevent shadows falling behind containers with backgrounds */
-overflow: hidden;
-list-style: none;
-margin: 0;
-padding: 0; }
-
-
-ul.box li, ul.box2 li, ul.box3 li, ul.box4 li {
-position: relative;
-float: left;
-margin: 0 30px 30px 0;
--webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
--moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; }
-
-
-ul.box li:before,
-ul.box li:after,
-ul.box2 li:after,
-ul.box2 li:before,
-ul.box4 li:after {
-content: '';
-z-index: -1;
-position: absolute;
-left: 10px;
-bottom: 10px;
-width: 70%;
-max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
-max-height: 100px;
-height: 55%;
--webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
--webkit-transform: skew(-15deg) rotate(-6deg);
--moz-transform: skew(-15deg) rotate(-6deg);
--ms-transform: skew(-15deg) rotate(-6deg);
--o-transform: skew(-15deg) rotate(-6deg);
-transform: skew(-15deg) rotate(-6deg); }
-
-
-
-ul.box li:after,
-ul.box4 li:after {
-left: auto;
-right: 10px;
--webkit-transform: skew(15deg) rotate(6deg);
--moz-transform: skew(15deg) rotate(6deg);
--ms-transform: skew(15deg) rotate(6deg);
--o-transform: skew(15deg) rotate(6deg);
-transform: skew(15deg) rotate(6deg); }
