@@ -2,69 +2,276 @@
 <html lang="en">
   <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/tourist-spots.component.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+  body, html{
+height:100%;
+margin:0;
+font-size: 16px;
+font-family: "Lato", sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+color:rgb(0, 0, 0);
+}
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17, .pimg18, .pimg19, .pimg20, .pimg21, .pimg22, .pimg23, .pimg24, .pimg25{
+position:relative;
+opacity:0.90;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+
+
+background-attachment:fixed;
+}
+
+.pimg1{
+
+background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1452116380%2Fspace-needle-seattle-sea0116.jpg%3Fitok%3D_U3my-fS&c=sc&poi=face&q=85');  
+min-height: 600px;
+}
+.pimg2{
+
+background-image: url('https://olsonkundig.com/wp-content/uploads/2019/03/13049_00_N454_high-2160x1620.jpg');  
+min-height: 400px;
+}
+.pimg3{
+
+background-image: url('https://s3.amazonaws.com/cdn.seattlemonorail.com/wp-content/uploads/2012/02/17003545/website-1.jpg');  
+min-height: 400px;
+}
+
+.pimg4{
+
+background-image: url('https://s3.amazonaws.com/crowdriff-media/full/35385141421ddb50441cbcbf33f703310cd1ec60c75632a785a3d57c1c26f053.jpg');  
+min-height: 400px;
+}
+.pimg5{
+
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b3/Pacific_Science_Center_at_night_04.jpg');  
+min-height: 400px;
+}
+
+.pimg6{
+
+background-image: url('https://www.chihuly.com/sites/default/files/images/CGG_SpringBloom_2_0675_TR.jpg');  
+min-height: 400px;
+}
+
+.pimg7{
+
+background-image: url('https://i.ytimg.com/vi/V-_fX7JGOLU/maxresdefault.jpg');  
+min-height: 400px;
+}
+
+.pimg8{
+
+background-image: url('https://cdn.vox-cdn.com/thumbor/VjrdnIjF9QTw5qjGR1KKFfi1EPg=/0x0:2000x1329/1200x900/filters:focal(654x260:974x580)/cdn.vox-cdn.com/uploads/chorus_image/image/55235639/eatersea0916_pike_place_market_shutterstock_mcarter.0.0.jpg');  
+min-height: 400px;
+}
+
+.pimg9{
+
+background-image: url('https://upload.wikimedia.org/wikipedia/en/7/77/Seattle_Art_Museum_%28exterior%2C_2006%29.jpg');  
+min-height: 400px;
+}
+
+.pimg10{
+
+background-image: url('https://www.okaluxna.com/wp-content/uploads/2016/10/005_rem_koolhaas_seattle_central_library_theredlist.jpg');  
+min-height: 400px;
+}
+
+.pimg11{
+
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bb/SmithTower_Seattle_WA_USA2.jpg');  
+min-height: 400px;
+}
+
+.pimg12{
+
+background-image: url('http://mithun.com/wp-content/uploads/2017/05/0421400_N58.jpg');  
+min-height: 400px;
+}
+
+.pimg13{
+
+background-image: url('https://www.nwnewsnetwork.org/sites/northwestnews/files/styles/x_large/public/201901/mv_puyallup_approaches_pier_52.jpg');  
+min-height: 400px;
+}
+
+.pimg14{
+
+background-image: url('https://voices.spu.edu/wp-content/uploads/2017/08/1440w-greatwheel2669_1035x496_acf_cropped-1.jpg');  
+min-height: 400px;
+}
+
+.pimg15{
+
+background-image: url('https://cdn.carmel-apartments.com/system/uploads/fae/image/asset/5016/1600x1040-satisfy-your-lust-for-the-skies-at-the-museum-of-flight.jpg');  
+min-height: 400px;
+}
+
+.pimg16{
+
+background-image: url('https://www.travelforsenses.com/wp-content/uploads/2017/06/wineries-1024x682.jpg');  
+min-height: 400px;
+}
+
+.pimg17{
+
+background-image: url('https://showmeseattle.com/wp-content/uploads/2015/12/Boeing-Assembly-Plant-787-Line.jpg');  
+min-height: 400px;
+}
+
+.pimg18{
+
+background-image: url('http://www.centurylinkfield.com/wp-content/uploads/2015/10/stadium-guide.jpg-2.jpg');  
+min-height: 400px;
+}
+
+.pimg19{
+
+background-image: url('https://www.tripsavvy.com/thmb/HAeMRksryax_Oe-7wp5x3Hd0LJA=/950x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/seattle-skyline-as-seen-from-kerry-park--washington-state--united-states-940127462-acf7b20ca2234a5d8f34e945a65abd97.jpg');  
+min-height: 400px;
+}
+
+.pimg20{
+background-image: url('http://www.techofficespaces.com/wp-content/uploads/2018/10/Occidental_Square_-_photo_by_Olivia_Brent_crop.jpg');  
+min-height: 400px;
+}
+
+.pimg21{
+background-image: url('https://www.visitseattle.org/wp-content/uploads/2017/02/Chinatown-International-District-Entrance-Gate.jpg');  
+min-height: 400px;
+}
+
+.pimg22{
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Lake_Washington_ship_canal%2C_Hiram_M._Chittenden_Locks%2C_1995.jpg');  
+min-height: 400px;
+}
+
+.pimg23{
+background-image: url('https://seattle.findwell.com/wp-content/uploads/2011/10/south-lake-union-banner.jpg');  
+min-height: 400px;
+}
+
+.pimg24{
+background-image: url('https://www.tourismvictoria.com/sites/default/files/listing_34353_1.jpg');  
+min-height: 400px;
+}
+.pimg25{
+background-image: url('https://lmnarchitects.com/wp-content/uploads/2019/03/3084a482-025d-4963-8d84-9a41edba0fcb.jpg');  
+min-height: 400px;
+}
+
+.section{
+text-align:center;
+padding:50px 80px;
+background-color:#282e34;
+color:#ddd;
+
+}
+
+.ptext{
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform: uppercase;
+
+}
+
+header  {
+  margin: 250px 0px;
+}
+
+ 
+.border-trans {
+  color:rgb(0, 0, 0);
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+}
+a href{
+  color:rgb(0,0,0);
+}
+
+</style>
 <title>Tourist Spots</title>
-<link rel="stylesheet" href="/tourist-spots.component.css">
   </head>
+
+  <header>
+
+  </header>
   <body>
+
+<div class="tourism-nav"></div>
+
 <div class="pimg1">
   <div class="ptext">
     <span class="border">
-      Tourist spots
+      Tourist spots 
     </span>
   </div>
 </div>
 
 <section class="section section">
 <h2>Space Needle</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<p>The Space Needle is an observation tower in Seattle, Washington, United States. It is a city landmark and is considered an icon of Seattle. It was built in the Seattle Center for the 1962 World's Fair, which drew over 2.3 million visitors. Nearly 20,000 people a day used its elevators during the event.</p>
 </section>
 
 <div class="pimg2">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.289359274378!2d-122.35146608436897!3d47.620506279185534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490151f4ed5b7f9%3A0xdb2ba8689ed0920d!2sSpace%20Needle!5e0!3m2!1sen!2sus!4v1574393081869!5m2!1sen!2sus"  target="_blank"style="color:rgb(255, 255, 255)">Space Needle</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>Pike Place Market</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Seattle Center Monorail</h2>
+<p> The Seattle Center Monorail is an elevated monorail line in Seattle, Washington, that operates along Fifth Avenue between Seattle Center in Lower Queen Anne and Westlake Center in Downtown. Seattle Center Monorail is a public transit route with a top speed of 45 mph.</p>
 </section>
 
 <div class="pimg3">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5379.6883130699025!2d-122.3465703223639!3d47.60971991673944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab2c54769e9%3A0x94c94c79f46fe138!2sPike%20Place%20Market!5e0!3m2!1sen!2sus!4v1574448440155!5m2!1sen!2sus"  target="_blank"style="color:rgb(255, 255, 255)">
-      Pike Place Market</a>
+        Seattle Center Monorail</a>
+    </span>
+  </div>
+</div>
+
+<section class="section section">
+<h2>Museum of Pop Culture (MoPOP)</h2>
+<p>The Museum of Pop Culture, or MoPOP is a nonprofit museum dedicated to contemporary popular culture. It was founded by Microsoft co-founder Paul Allen in 2000 as the Experience Music Project. Since that time MoPOP has organized dozens of exhibits, 17 of which have toured across the US and internationally.</p>
+</section>
+
+<div class="pimg4">
+  <div class="ptext">
+    <span class="border-trans">
+      <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
+        Museum of Pop Culture (MoPOP)</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
 <h2>Pacific Science Center</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
-</section>
-
-<div class="pimg4">
-  <div class="ptext">
-    <span class="border trans">
-      <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
-    </span>
-  </div>
-</div>
-
-<section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<p> Pacific Science Center is an independent, non-profit science center in Seattle, Washington with a mission to ignite curiosity and fuel a passion for discovery, experimentation, and critical thinking.</p>
 </section>
 
 <div class="pimg5">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
       Pacific Science Center</a>
     </span>
@@ -72,237 +279,237 @@
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Chihuly Garden and Glass</h2>
+<p> Chihuly Garden and Glass is an exhibit in the Seattle Center showcasing the studio glass of Dale Chihuly. It opened in May 2012 at the former site of the Fun Forest.</p>
 </section>
 
 <div class="pimg6">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Chihuly Garden and Glass</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Pacific Northwest Ballet</h2>
+<p> Pacific Northwest Ballet is a ballet company based in Seattle, Washington, in the United States. It is said to have the highest per capita attendance in the United States, with 11,000 subscribers in 2004. The company consists of 49 dancers; there are over 100 performances throughout the year.</p>
 </section>
 
 <div class="pimg7">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Pacific Northwest Ballet</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Pike Place Market</h2>
+<p> Pike Place Market is a public market overlooking the Elliott Bay waterfront in Seattle, Washington, United States. The Market opened August 17, 1907, and is one of the oldest continuously operated public farmers' markets in the United States</p>
 </section>
 
 <div class="pimg8">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Pike Place Market</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Seattle Art Museum</h2>
+<p> The Seattle Art Museum is an art museum located in Seattle, Washington. It maintains three major facilities: its main museum in downtown Seattle; the Seattle Asian Art Museum in Volunteer Park on Capitol Hill, and the open Olympic Sculpture Park on the central Seattle waterfront, which opened on January 20, 2007.</p>
 </section>
 
 <div class="pimg9">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Seattle Art Museum</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Central Public Library</h2>
+<p> The Seattle Public Library's Central Library is the flagship library of The Seattle Public Library system. The 11-story glass and steel building in downtown Seattle, Washington was opened to the public on Sunday, May 23, 2004.</p>
 </section>
 
 <div class="pimg10">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Central Public Library</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Smith Tower</h2>
+<p>In 1914, Smith Tower became the first skyscraper in Seattle and the tallest building west of the Mississippi River. For more than one hundred years, it has remained a cultural icon of the city, offering breathtaking, panoramic views and spectacular architectural beauty.</p>
 </section>
 
 <div class="pimg11">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Smith Tower</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Seattle Aquarium</h2>
+<p> The Seattle Aquarium is a public aquarium opened in 1977 and located on Pier 59 on the Elliott Bay waterfront in Seattle, Washington, USA. It is accredited by the Association of Zoos and Aquariums.</p>
 </section>
 
 <div class="pimg12">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Seattle Aquarium</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Washington State Ferries</h2>
+<p>Washington State Ferries is a government agency that operates automobile and passenger ferry service in the U.S. state of Washington as part of the Washington State Department of Transportation.</p>
 </section>
 
 <div class="pimg13">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Washington State Ferries</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Seattle Great Wheel</h2>
+<p>The Seattle Great Wheel is a giant Ferris wheel at Pier 57 on Elliott Bay in Seattle, Washington. With an overall height of 175 feet, it was the tallest Ferris wheel on the West Coast of the United States when it opened on June 29, 2012.</p>
 </section>
 
 <div class="pimg14">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Seattle Great Wheel</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Museum of Flight</h2>
+<p>The Museum of Flight is a private non-profit air and space museum in the northwest United States. It is located at the southern end of King County International Airport, in the city of Tukwila, just south of Seattle. It was established in 1965 and is fully accredited by the American Alliance of Museums.</p>
 </section>
 
 <div class="pimg15">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Museum of Flight</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Woodinville Wine Country</h2>
+<p> Picturesque valley known for its wide variety of local wineries, microbreweries & eateries.</p>
 </section>
 
 <div class="pimg16">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Woodinville Wine Country</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>The Future of Flight Aviation Center & Boeing Tour</h2>
+<p> The Boeing Everett Factory, in Everett, Washington, is an airplane assembly building owned by Boeing. Located on the north-east corner of Paine Field, it is the largest building in the world by volume at 13,385,378 m³ and covers 399,480 m².</p>
 </section>
 
 <div class="pimg17">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        The Future of Flight Aviation Center & Boeing Tour</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>T-Mobile Park and Century Link Field</h2>
+<p> CenturyLink Field is a multi-purpose stadium located in Seattle, Washington, United States. It is the home field for the Seattle Seahawks of the National Football League and Seattle Sounders FC of Major League Soccer. It will be the home field for the XFL’s Seattle Dragons starting in 2020.</p>
 </section>
 
 <div class="pimg18">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        T-Mobile Park and Century Link Field</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Kerry Park</h2>
+<p> Kerry Park is a small public park and viewpoint on the south slope of Queen Anne Hill in Seattle, Washington, United States. It overlooks Downtown Seattle and is located along West Highland Drive between 2nd Avenue West and 3rd Avenue West.</p>
 </section>
 
 <div class="pimg19">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Kerry Park</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Pioneer Square</h2>
+<p> Art galleries, coffee shops and trendy bars fill Pioneer Square’s late-1800s Romanesque Revival buildings. Tourists explore subterranean streets on the guided Underground Tour, and learn about Seattle’s roots at the Klondike Gold Rush National Historical Park. Office workers unwind in secluded Waterfall Garden Park or grab lunch from food trucks at Occidental Square, a plaza with bistro tables and bocce courts.</p>
 </section>
 
 <div class="pimg20">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Pioneer Square</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Chinatown-International District</h2>
+<p> The Chinatown-International District is a bustling hub for Seattle’s Asian-American communities. Noodle houses, sushi spots, dim sum restaurants and karaoke bars mingle with gift shops and markets selling imported goods. Historical and cultural exhibits are on display at the Wing Luke Museum of the Asian Pacific American Experience. Local hangout spot Hing Hay Park features the ornate Grand Pavilion at its center.</p>
 </section>
 
 <div class="pimg21">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Chinatown-International District</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Ballard Locks</h2>
+<p> The Hiram M. Chittenden Locks, or Ballard Locks, is a complex of locks at the west end of Salmon Bay, in Seattle, Washington's Lake Washington Ship Canal, between the neighborhoods of Ballard to the north and Magnolia to the south.</p>
 </section>
 
 <div class="pimg22">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
       Pacific Science Center</a>
     </span>
@@ -310,45 +517,47 @@
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>South Lake Union</h2>
+<p> A booming hub for Amazon and the biotech industry, South Lake Union is crammed with buzzing bars, hip eateries and lunchtime food trucks. In Lake Union Park, the waterside Museum of History & Industry (MOHAI) highlights Seattle’s history, businesses and inventions. The Center for Wooden Boats runs sailing courses and rents sailboats, rowboats and canoes. Kayakers and paddleboarders float under seaplanes on the lake.</p>
 </section>
 
 <div class="pimg23">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border-trans">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        South Lake Union</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Kenmore Air</h2>
+<p>Taking a seaplane flight is a quintessential Pacific Northwest experience and Kenmore Air makes it easy to enjoy the unique thrill of flying off the water and soaring over one of the most beautiful regions in the world.</p>
 </section>
 
 <div class="pimg24">
   <div class="ptext">
-    <span class="border trans">
+    <span class="border">
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
-      Pacific Science Center</a>
+        Kenmore Air</a>
     </span>
   </div>
 </div>
 
 <section class="section section">
-<h2>next</h2>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus, cupiditate officiis voluptatibus aperiam illo doloribus quidem rem nulla, hic labore quae nihil inventore. Et labore iusto, placeat modi beatae commodi consequuntur veritatis animi sunt aut dolorum expedita corrupti necessitatibus optio, dolore id vitae at eos impedit consequatur sed. Laudantium saepe, quidem atque obcaecati culpa tempore corrupti dignissimos assumenda quod nulla amet eligendi labore. Autem accusamus laboriosam quasi voluptates! Tempore dicta tenetur quasi quod velit omnis vitae recusandae? Unde a explicabo architecto ipsum fugiat cumque laudantium facere voluptates repellendus itaque? Quasi ea rem mollitia ipsa distinctio vitae exercitationem at cupiditate. </p>
+<h2>Museum of History & Industry</h2>
+<p> The Museum of History & Industry is a history museum in the South Lake Union neighborhood of Seattle, Washington.</p>
 </section>
 
-<div class="pimg1">
+<div class="pimg25">
   <div class="ptext">
     <span class="border">
-      Tourist spots
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.3288131176955!2d-122.35328108436907!3d47.61973927918557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154cbd561603%3A0x99a953b20bf0eb3e!2sPacific%20Science%20Center!5e0!3m2!1sen!2sus!4v1574449659496!5m2!1sen!2sus" target="_blank"style="color:rgb(255, 255, 255)">
+          Museum of History & Industry</a> 
     </span>
   </div>
 </div>
 
 </body>
 </html>
+    
