@@ -1,0 +1,197 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:rgb(0, 0, 0);
+    }
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17, .pimg18, .pimg19, .pimg20, .pimg21, .pimg22, .pimg23, .pimg24, .pimg25{
+    position:relative;
+    opacity:0.90;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    
+    background-attachment:fixed;
+    }
+    
+    .pimg1{
+    
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1452116380%2Fspace-needle-seattle-sea0116.jpg%3Fitok%3D_U3my-fS&c=sc&poi=face&q=85');  
+    min-height: 600px;
+    }
+    .pimg2{
+    
+    background-image: url('https://olsonkundig.com/wp-content/uploads/2019/03/13049_00_N454_high-2160x1620.jpg');  
+    min-height: 400px;
+    }
+    .pimg3{
+    
+    background-image: url('https://s3.amazonaws.com/cdn.seattlemonorail.com/wp-content/uploads/2012/02/17003545/website-1.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg4{
+    
+    background-image: url('https://s3.amazonaws.com/crowdriff-media/full/35385141421ddb50441cbcbf33f703310cd1ec60c75632a785a3d57c1c26f053.jpg');  
+    min-height: 400px;
+    }
+    .pimg5{
+    
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b3/Pacific_Science_Center_at_night_04.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg6{
+    
+    background-image: url('https://www.chihuly.com/sites/default/files/images/CGG_SpringBloom_2_0675_TR.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg7{
+    
+    background-image: url('https://i.ytimg.com/vi/V-_fX7JGOLU/maxresdefault.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg8{
+    
+    background-image: url('https://cdn.vox-cdn.com/thumbor/VjrdnIjF9QTw5qjGR1KKFfi1EPg=/0x0:2000x1329/1200x900/filters:focal(654x260:974x580)/cdn.vox-cdn.com/uploads/chorus_image/image/55235639/eatersea0916_pike_place_market_shutterstock_mcarter.0.0.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg9{
+    
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/7/77/Seattle_Art_Museum_%28exterior%2C_2006%29.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg10{
+    
+    background-image: url('https://www.okaluxna.com/wp-content/uploads/2016/10/005_rem_koolhaas_seattle_central_library_theredlist.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg11{
+    
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bb/SmithTower_Seattle_WA_USA2.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg12{
+    
+    background-image: url('http://mithun.com/wp-content/uploads/2017/05/0421400_N58.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg13{
+    
+    background-image: url('https://www.nwnewsnetwork.org/sites/northwestnews/files/styles/x_large/public/201901/mv_puyallup_approaches_pier_52.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg14{
+    
+    background-image: url('https://voices.spu.edu/wp-content/uploads/2017/08/1440w-greatwheel2669_1035x496_acf_cropped-1.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg15{
+    
+    background-image: url('https://cdn.carmel-apartments.com/system/uploads/fae/image/asset/5016/1600x1040-satisfy-your-lust-for-the-skies-at-the-museum-of-flight.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg16{
+    
+    background-image: url('https://www.travelforsenses.com/wp-content/uploads/2017/06/wineries-1024x682.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg17{
+    
+    background-image: url('https://showmeseattle.com/wp-content/uploads/2015/12/Boeing-Assembly-Plant-787-Line.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg18{
+    
+    background-image: url('http://www.centurylinkfield.com/wp-content/uploads/2015/10/stadium-guide.jpg-2.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg19{
+    
+    background-image: url('https://www.tripsavvy.com/thmb/HAeMRksryax_Oe-7wp5x3Hd0LJA=/950x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/seattle-skyline-as-seen-from-kerry-park--washington-state--united-states-940127462-acf7b20ca2234a5d8f34e945a65abd97.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg20{
+    background-image: url('http://www.techofficespaces.com/wp-content/uploads/2018/10/Occidental_Square_-_photo_by_Olivia_Brent_crop.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg21{
+    background-image: url('https://www.visitseattle.org/wp-content/uploads/2017/02/Chinatown-International-District-Entrance-Gate.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg22{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Lake_Washington_ship_canal%2C_Hiram_M._Chittenden_Locks%2C_1995.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg23{
+    background-image: url('https://seattle.findwell.com/wp-content/uploads/2011/10/south-lake-union-banner.jpg');  
+    min-height: 400px;
+    }
+    
+    .pimg24{
+    background-image: url('https://www.tourismvictoria.com/sites/default/files/listing_34353_1.jpg');  
+    min-height: 400px;
+    }
+    .pimg25{
+    background-image: url('https://lmnarchitects.com/wp-content/uploads/2019/03/3084a482-025d-4963-8d84-9a41edba0fcb.jpg');  
+    min-height: 400px;
+    }
+    
+    .section{
+    text-align:center;
+    padding:50px 80px;
+    background-color:#282e34;
+    color:#ddd;
+    
+    }
+    
+    .ptext{
+      position: absolute;
+      top:50%;
+      width:100%;
+      text-align:center;
+      color:#000;
+      font-size:27px;
+      letter-spacing:8px;
+      text-transform: uppercase;
+    
+    }
+    
+    header  {
+      margin: 250px 0px;
+    }
+    
+     
+    .border-trans {
+      color:rgb(0, 0, 0);
+    }
+    
+    @media(max-width:568px){
+      .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+      }
+    }
+    a href{
+      color:rgb(0,0,0);
+    }
