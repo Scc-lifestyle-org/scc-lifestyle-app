@@ -1,4 +1,4 @@
-.main-title, .main-head, .text, .title {
+.main-title, .main-head, .text, .title .caption {
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -31,10 +31,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-
-  
 }
 
+@media(max-width:568px){
+  .body .main-head, .main-title, .head .title{
+    background-attachment: scroll;
+  }
+}
 .main-title span{ 
   
     background-color: rgba(18, 33, 44, 0.4);
@@ -107,6 +110,7 @@
   height: auto;
 }
 
+
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -124,6 +128,7 @@
   height: 100%;
 }
 
+
 .text {
   color: white;
   font-size: 30px;
@@ -133,17 +138,15 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .little-div {
   margin: 20px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: grid;
 }
-.caption {
-   
-    margin: 0 auto;
-  }
-  
+
 
 .span {
   display: inline;
+
 }
