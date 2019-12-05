@@ -1,9 +1,8 @@
 .costco {
   font-family: Lato;
   font-size: 20px;
-  background-color: #304451;
   width: 100%;
-  border: 5px solid rgb(0, 0, 0);
+  /*border: 5px solid rgba(0, 0, 0, 0.849);*/
   padding: 50px;
   margin: 0px;
   display: flex;
@@ -36,7 +35,8 @@ h3 {
 }
 
 body {
-  background-color: #304451;
+  background-color: #ffffff;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-dark-gray-wooden-planks-panel-background-image_310040.jpg");
 }
 
 img {
@@ -47,5 +47,12 @@ img {
 
 p {
 font-size: 20px;
-color: black;
+color: rgb(255, 255, 255);
+align-self: center;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.815);
+}
+
+.page {
+  border: 5px solid rgb(0, 0, 0);
 }
