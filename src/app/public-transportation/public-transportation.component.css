@@ -1,0 +1,12 @@
+h1 {
+  text-align:center;
+}
+
+.box:hover{
+
+  background-color:aliceblue;
+}
+
+li {
+  font-size: 19px;
+}
