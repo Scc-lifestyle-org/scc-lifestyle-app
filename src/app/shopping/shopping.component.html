@@ -1,4 +1,227 @@
-<h1 style="text-align: center;">
-       Shopping
-    </h1>
+<div class="main-title-div">
+  <h1 class="main-title">Shopping in Seattle</h1>
+  </div>
+<app-carousel [autoPlayDuration]="5000" animation="slide" [isNavigationVisible]="true" [isThumbnailsVisible]="true" [slides]="slides"
+ [slideTemplateRef]="slide" [thumbnailTemplateRef]="thumbnail"></app-carousel>
+<ng-template #slide let-slide>
+	<div [ngStyle]="{
+      'background-size': 'contain',
+      'background-image': 'url(' + slide.url + ')',
+      'background-repeat': 'no-repeat',
+      'width': '100%',
+      'height': '100%',
+      'background-position': 'center',
+      'background-color': 'rgba(0,0,0.5)'
+    }">
+	</div>
+</ng-template>
+<ng-template #thumbnail let-slide>
+		<div [ngStyle]="{
+        'background-size': 'cover',
+        'background-image': 'url(' + slide.url + ')',
+        'background-repeat': 'no-repeat',
+        'background-position': 'center center',
+        'width': '100%',
+        'height': '100%'
+      }"></div>
+</ng-template>
+<button type="button" class="btn btn-info">Clothing</button>
+		<button type="button" class="btn btn-info">Shoes & Accesories</button>
+		<button type="button" class="btn btn-info">Local Retail Outlets</button>
+
+<!-- Products page -->
+		<div class="image" style="height: 220vh; width: 100%; border: solid black 2px; background-color: red;"
+			[ngStyle]="{'background': ' url (' + imageURL + ') no-repeat 0 0'}">
+<div class="grid-container">
+  <div class="mid-div"><b>Glasswing Shop</b>
+  <img src="https://lh5.googleusercontent.com/p/AF1QipP9hLTeLlYluxZTPuybTJ1DqU97FCWGgVJ9dQ1d=w600-h485-p-k-no"/>
+WebsiteDirections
+Save
+4.5
+45 Google reviews
+$$Clothing store in Seattle, Washington
+
+Stylish outfit offering clothes, home goods & plants in an industrial space with an on-site gallery.
+Address: 1525 Melrose Ave, Seattle, WA 98122
+Hours: 
+Thursday
+11AM–7PM
+Friday
+11AM–7PM
+Saturday
+11AM–7PM
+Sunday
+12–6PM
+Monday
+11AM–7PM
+Tuesday
+11AM–7PM
+Wednesday
+11AM–7PM
+</div>
+  <div class="mid-div"><b>Visette Boutique</b>
+ <img src="https://lh5.googleusercontent.com/p/AF1QipMV6uXvgwtbN4RivWgdDCSzFBhjLlxSRKlUlHuc=w600-h650-p-k-no"/>
+5.0
+12 Google reviews
+Women's clothing store in Seattle, Washington
+This boutique offers custom dresses for all occasions, not just for formal events.
+Address: 1417 10th Ave Studio D, Seattle, WA 98122
+Hours: Open now · 
+Add full hours
+Phone: (206) 928-9898
+</div>
+  <div class="mid-div"><b>Velouria</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipOZBOnOV11ZSamAadK_d8FlPlNb0bSXbjUfTMGq=w203-h360-k-no"/>
+4.8
+12 Google reviews
+Women's clothing store in Seattle, Washington
+Airy boutique offering small-production, independently made women's clothing, jewelry & accessories.
+Address: 145 S King St, Seattle, WA 98104
+Hours: 
+Thursday
+11AM–7PM
+Friday
+11AM–7PM
+Saturday
+11AM–7PM
+Monday
+Closed
+Tuesday
+11AM–7PM
+</div>  
+  <div class="mid-div"><b>Sway and Cake</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipNPIjVkD4z9Z1X8AAmFysELRoClzK1Kpz2VEnMN=w600-h485-p-k-no"/>
+3.6
+8 Google reviews
+$$$Clothing store in Seattle, Washington
+Trendy boutique for an eclectic selection of designer women's clothing & jewelry designs.
+Address: 1124 E Pike St, Seattle, WA 98122
+Hours: Open ⋅ Closes 7PM Phone: (206) 466-602</div>
+  <div class="mid-div"><b>Baby & Company</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipNqSQr1SAiAy71fzPPl-KZls2B4_LHUXaAfwelm=w400-h488-p-k-no"/>
+WebsiteDirections
+Save
+4.0
+29 Google reviews
+$$$Women's clothing store in Seattle, Washington
+
+Prominent women & men's clothing boutique known for sharp designer fashions from cult labels.
+Address: 1936 1st Ave, Seattle, WA 98101
+Hours: 
+Thursday
+10AM–6PM
+Friday
+10AM–6PM
+Saturday
+10AM–6PM
+Sunday
+12–5PM
+Monday
+10AM–6PM
+Tuesday
+10AM–6PM
+Wednesday
+10AM–6PM
+Phone: (206) 448-4077</div>
+  <div class="mid-div"><b>Pipe and Row</b>
+  <img src= "https://lh5.googleusercontent.com/p/AF1QipO-X3qk3-g3eAuouXm0fna1MkAsrYyJMFlqrKK_=w453-h414-k-no"/>
+4.7
+16 Google reviews
+Women's clothing store in Seattle, Washington
+Compact, minimalist store featuring on-trend, contemporary women's fashion, accessories & gifts.
+Address: 611 N 35th St, Seattle, WA 98103
+Hours: Open ⋅ Closes 7PM
+Products and Services: places.singleplatform.com
+Phone: (206) 632-0720</div>  
+
+</div>
+
+    </div>
+
+<!-- Reviews -->
+<div style="; width: 100%; border: solid black 2px; background-color: purple;"> 
+<h1>Reviews</h1>
+  <div class="big-review-div">
+    <div class="smaller-review-div">
+      <h1>Glasswing Shop reviews:</h1>
+      Howard Dwight
+4 reviews
+ a week ago
+This mall is great almost all of the stores are occupied ample free parking !!!
+ Like  Share
+Francis Pillow
+4 reviews
+ a week ago
+Loved the creative atmosphere and the endless selections at Glasswing Shop
+
+    </div>
+    <div class="smaller-review-div">
+      <h1>Visette Boutique reviews:</h1>
+Julie Welden
+Local Guide ・8 reviews
+ a month ago
+Lisa Marie at Visette was a dream to work with and made me the PERFECT custom wedding dress. Lisa guided me through the whole process and helped me realize what dress would work best for my body and made that dream an incredible reality.  I can't speak highly enough of Lisa Marie and her exquisite work!
+Michael Patrick Hoyle
+Local Guide ・14 reviews
+ 3 months ago
+Each time I visit this boutique I know my wife is going to go home happy. The styles, designs are of the most elegant standard. Seattle’s most noteworthy boutique for up scale fashion. The pieces form to my wife like no other. I write this review with high praise. When you find something this good, support it!
+
+    </div>
+  </div>
+
+   <div class="big-review-div">
+    <div class="smaller-review-div">
+      <h1>Velouria reviews:</h1>
+      John Marsh
+Local Guide ・30 reviews
+ 2 months ago
+Pricey but have some unique hand selected items from local artists. Cool place.
+ Like  Share
+Nichole Crowley
+Local Guide ・61 reviews
+ 5 months ago
+This shop is to die for! The staff is unbelievably kind & helpful. I loved everything they carried. So many unique and gorgeous finds (especially jewelry), make a visit, you'll be glad you did!
+    </div>
     
+    <div class="smaller-review-div">
+      <h1>Sway and Cake reviews:</h1>
+      Julie Klitgaard
+2 reviews
+ 8 months ago
+Love love love sway and cake! The customer service is top notch! They always have the cutest clothes, from denim to dresses. I love that you can find unique styles here. Love their selection of AGOLDE and Mother denim! Hands down best boutique in Seattle!
+
+jessica notman
+6 reviews
+ a year ago
+Love Sway and Cake! The clothes and jewelry are always beautiful and the customer service is impressive. I always feel special when I shop here and find exactly what I’m looking for... plus a little extra :) Highly recommend!
+
+    </div>
+    </div>
+    <div class="big-review-div">
+    <div class="smaller-review-div">
+      <h1>Baby & Company</h1>
+salih karagoz
+ 3 weeks ago
+One of the best stores in town. You can find really cool Japanese and French brands. Plus, they have discounts usually, and not overpriced. I bought several jeans and shirts, they all have high quality and style. Internal decoration is also very cool.
+
+Julz Vern
+ a month ago
+This company is great with awesome staff that always show great customer service
+
+    </div>
+    
+    <div class="smaller-review-div">
+      <h1>Pipe & Row</h1>
+      Beth Watrous
+Beautiful boutique.
+ 
+Jennie LaBonte
+
+ a year ago
+Amazing clothes and the best staff! They always go above and beyond to help me and are the sweetest!
+
+
+    </div>
+  </div>
+  
+</div>
