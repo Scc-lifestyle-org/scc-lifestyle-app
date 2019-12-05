@@ -1,122 +1,82 @@
 <!DOCTYPE html>
     <html>
-<style>
-	a {
-		text-decoration: none;
-	}
 
-	a.p-button {
-		color: red;
-		width: 100%;
-		height: 100%;
-		background-color: white;
-		border-style: solid;
-		border-width: 1px;
-		padding: 2px;
-	}
-</style>
+    <head>
+        <title>Resturants</title> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
 
-<body>
-	<div class="container" style="text-align:center">
-		<h1> Top 10 Restaurants in Seattle </h1>
-		<table style="width:100%">
-			<tr>
-				<th style="text-align:center;font-size:18;">Restaurant</th>
-				<th style="text-align:center;font-size:18;">Website</th>
-				<th style="text-align:center;font-size:18;">Number</th>
-				<th style="text-align:center;font-size:18;">Directions</th>
-			</tr>
+    <body>
 
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://cdn.vox-cdn.com/thumbor/GmvDqQDh5bSEi3J6Eq_N0iEC7sc=/0x0:960x960/920x690/filters:focal(404x404:556x556):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62574799/Wandering_Goose.0.0.0.jpg"></td>
-				<td><a href="http://www.thewanderinggoose.com/">www.TheWanderingGoose.com</a></td>
-				<td>(206) 323-9938</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=The+Wandering+Goose&amp;query_place_id=ChIJacpVeysVkFQRP5o3A8eRXZE"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/e35/52097308_1894490667341158_7787065828809520596_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=110&oh=14d0b6a63bdc1a3a26560475ac8e5368&oe=5E686423"></td>
-				<td><a href="http://tanedaseattle.com/">www.TanedaSeattle.com</a></td>
-				<td>(206) 457-8921</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Taneda&amp;query_place_id=ChIJXcM6TZwVkFQR_DSKVibXe2c"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/e35/38773352_2016578318405886_8552467702491381760_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=106&oh=b6c13c73bd962beeae2dea590d2b1635&oe=5E7D2A42"></td>
-				<td><a href="https://www.facebook.com/TacosChukis">www.TacosChukis.com</a></td>
-				<td>N/A</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Tacos+Chukis&amp;query_place_id=ChIJL2gQeTIVkFQREoqp0MpRH1U"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://cdn.vox-cdn.com/thumbor/BGE2nQPkz4ZSOjgnyA-OM64rm2M=/0x0:3088x2056/570x428/filters:focal(1437x1001:1931x1495):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62574797/IMG_7630.0.0.jpeg"></td>
-				<td><a href="http://www.kedaimakansea.com/">www.KedaiMakansea.com</a></td>
-				<td>(206) 555-5555</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Kedai+Makan&amp;query_place_id=ChIJ7_FjejMVkFQRt3sIrOcrwVU"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
+        <div class="container-fluid" style="background-color:#00F3FF">
+            <div class="row">
 
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/60518448_101564561053081_5163019092590583256_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=101&oh=5c44ea28e34635709e3ac44c98fff524&oe=5E6C1913"></td>
-				<td><a href="https://www.dachadiner.com/">www.DachaDiner.com</a></td>
-				<td>(206) 708-6855</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Dacha+Diner&amp;query_place_id=ChIJkUFoLEcVkFQRpjGGgDf1gyg"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
+                <div class="col">
+            
+                </div>
+            
+                <div class="col-6">
+                    <div class="jumbotron" style="background-color:#00F3FF">
+                        <h1 style="text-align:center;">Resturants!</h1>
+                        <p style="text-align:center;">Try these amazing Local Seattle Resturants!</p>
+                    </div>
+                </div>
 
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/73712514_2680831041938886_7035435590056477077_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=106&oh=7afebb6f20a994eb0284a4456edb8eec&oe=5E6714BA"></td>
-				<td><a
-						href="http://www.artusibar.com/?utm_source=google&utm_medium=local&utm_campaign=gmb">www.Artusi.com</a>
-				</td>
-				<td>(206) 251-7673</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Artusi&amp;query_place_id=ChIJN9ro9s1qkFQRaIS4QePBzbE"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
+                <div class="col">
+                </div>
 
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/e35/64712049_177288516603630_3253608581757142577_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=106&oh=8a722b7e32d6e2ab3188c676634acd7c&oe=5E773C30"></td>
-				<td><a href="http://www.adanaseattle.com/">www.AdanaSeattle.com</a></td>
-				<td>(206) 294-5230</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Adana&amp;query_place_id=ChIJXTZWDtJqkFQRYn1D802VvkI"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
+            </div>
+        </div>
 
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://cdn.vox-cdn.com/thumbor/ak9otWBxnwxsMo61YmI2lIekEP8=/0x0:5279x3519/570x428/filters:focal(2218x1338:3062x2182):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/65769608/Grilled_Octopus__Potato_Brava__Smoked_Paprika__Aioli.0.jpg"></td>
-				<td><a href="http://www.omegaouzeri.com/">www.OmegaOuzeri.com</a></td>
-				<td>(206) 257-4515</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Omega+Ouzeri&amp;query_place_id=ChIJxx8t8c1qkFQRZcL0cd6z3Fw" class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
-<hr>
+        <div class="container" style="padding-top: 10px;display: center;">
+            <form class="form" action="/action_page.php">
+                <div class="form-group">
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" class="form-control" id="zip">
+                </div>
+                <div class="form-group">
+                    <label for="miles">Miles:</label>
+                    <input type="text" class="form-control" id="miles">
+                </div>
+                <label for="sel1">Select price (select one):</label>
+                <select class="form-control" id="sel1">
+                    <option>$ ($10)</option>
+                    <option>$$ ($20)</option>
+                    <option>$$$ ($50)</option>
+                    <option>$$$$ ($100)</option>
+                </select>
+                <label for="sel2">Cusine (hold ctrl to select more than one):</label>
+                <select multiple class="form-control" id="sel2">
+                    <option>Any</option>
+                    <option>American</option>
+                    
+                  <option>Bulgarian</option>
+                  <option>Chinese</option>
+                  
+                  <option>Ethiopian</option>
+                  <option>French</option>
+                  <option>Indian</option>
+                  
+                  <option>Italian</option>
+                  <option>Japanese</option>
+                  <option>Mexican</option>
+                  
+                </select>
+                <div class="checkbox">
+                        <label><input type="checkbox"> Vegan</label>
+                    </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>
 
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://cdn.vox-cdn.com/thumbor/L-pEEh6xKMqCuoefdQAVuNDi79E=/0x0:2000x1333/570x428/filters:focal(840x507:1160x827):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62574795/Nue_10.0.0.0.jpg"></td>
-				<td><a href="http://www.nueseattle.com/">www.NueSettle.com</a></td>
-				<td>(206) 257-0312</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Nue&amp;query_place_id=ChIJz91V-s1qkFQRTaAOUkM_jKo" class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
-
-<hr>
-			<tr style="text-align:center">
-				<td><img style ="width:280px;height:150px;" src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-15/e35/52097308_1894490667341158_7787065828809520596_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=110&oh=14d0b6a63bdc1a3a26560475ac8e5368&oe=5E686423"></td>
-				<td><a href="http://www.mamnoonrestaurant.com/">www.MamoonRestaurant.com</a></td>
-				<td>(206) 906-9606</td>
-				<td><a href="https://www.google.com/maps/search/?api=1&amp;query=Taneda&amp;query_place_id=ChIJXcM6TZwVkFQR_DSKVibXe2c"
-						class="p-button" target="_blank">Open in Google Maps</a></td>
-			</tr>
-
-
-		</table>
-
-	</div>
-</body>
-      
-</html>
+    </html>
