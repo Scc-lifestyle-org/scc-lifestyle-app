@@ -23,6 +23,7 @@ background-color: rgba(0,0,0,0.5);
 .title-pic {
   width: 600px;
   height: 100%;
+  background-color: #D3FCD5;
 }
 
 h3 {
@@ -32,6 +33,7 @@ h3 {
 
 .jumbotron {
   background-image: url("https://live.staticflickr.com/5603/15791842595_e476b2e2f4_b.jpg");
+  margin-top: 80px;
 }
 
 body {
@@ -43,6 +45,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 7px;
 }
 
 p {
@@ -50,7 +53,8 @@ font-size: 20px;
 color: rgb(255, 255, 255);
 align-self: center;
 text-align: center;
-background-color: rgba(0, 0, 0, 0.815);
+background-color: #44344F;
+padding: 60px;
 }
 
 .page {

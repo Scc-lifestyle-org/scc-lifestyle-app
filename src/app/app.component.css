@@ -3,9 +3,10 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    opacity:0.65;
-    position: absolute;
+    position: fixed;
     z-index: 50;
+    background-color: #98A6D4;
+    color: #D3FCD5;
 }
 
 header {
@@ -31,14 +32,14 @@ nav a {
     display: inline-block;
     margin-left: 75px;
     padding-top: 35px;
-    color: #444;
+    color: #D3FCD5;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
 }
 
 nav a:hover {
-    color: #cf9212;
+    color: #C2F970;
 }
 
 nav a::before {
@@ -46,7 +47,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: #cf9212;
+    background-color: #C2F970;
     position: absolute;
     top: 0;
     transition: all ease-in-out 250ms;

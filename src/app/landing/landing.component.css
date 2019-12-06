@@ -1,7 +1,11 @@
+html, body {
+  overflow: hidden;
+}
 .seattlePic {
   height: 100%;
   width: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 h1{
   position:absolute;
@@ -13,7 +17,7 @@ h1 span {
   color: white;
   font: bold 48px/73px Helvetica, Sans-Serif;
   letter-spacing: -1px;
-  background: rgb(0, 0, 0);
+  background: #44344F;
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }
@@ -21,10 +25,9 @@ h1 span.spacer{
   padding: 0px;
 }
 .header {
-  margin-top: 30px;
   padding: 60px;
   text-align:center;
-  background: #1abc9c;
+  background: #44344F;
   color:white;
   font-size: 40px;
   border: 5px solid black;
@@ -42,6 +45,28 @@ h1 span.spacer{
   width:500px;
 }
 
+.img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.row {
+  background-color: #564d80;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  background-color: #98A6D4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 div .column h6,p{
   text-align: center;
   letter-spacing:0.5px;
@@ -56,6 +81,12 @@ h2{
   text-align: center;
 }
 footer {
-  background-color: #1abc9c;
+  background-color: #D3FCD5;
   border: 5px solid black;
+}
+
+
+.landingBground {
+  width: 100%;
+  overflow-x: hidden;
 }

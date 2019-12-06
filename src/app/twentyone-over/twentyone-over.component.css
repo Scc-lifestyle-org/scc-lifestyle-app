@@ -6,7 +6,7 @@
 
 
 .body {
-  background-color: mintcream;
+  background-color: #D3FCD5;
   
 }
 
@@ -91,7 +91,7 @@
 }
 
 .big-div {
-  background:rgb(211,211,211);
+  background: #44344F;
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
@@ -112,6 +112,7 @@
   display: block;
   width: 100%;
   height: auto;
+  
 }
 
 
@@ -147,6 +148,7 @@
   margin: 20px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: grid;
+  background-color:#98A6D4;
 }
 
 

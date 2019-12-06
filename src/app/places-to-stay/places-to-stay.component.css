@@ -1,16 +1,6 @@
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 body {
-  font-size: 100%;
   font-family: "Bitter", sans-serif;
   color: #f5f4ed;
   background-color: #e8e8e8;
@@ -35,23 +25,21 @@ Main components
 
 -------------------------------- */
 header {
-  background: #454545;
+  background: #44344F;
   height: 100px;
   text-align: center;
+  margin-top: 80px;
 }
 header h1 {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 100px;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  padding-top: 40px;
   text-transform: uppercase;
   font-weight: bold;
-  padding-top: 1.6em;
   margin-bottom: .2em;
 }
 header p {
-  font-size: 13px;
-  font-size: 1rem;
+  font-size: 23px;
   color: #707070;
 }
 @media only screen and (min-width: 1024px) {
@@ -61,7 +49,6 @@ header p {
   header h1 {
     font-size: 30px;
     font-size: 1.875rem;
-    padding-top: 2.6em;
   }
 }
 
@@ -72,13 +59,14 @@ header p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: rgb(35,35,35);
+  background: #98A6D4;
+  border-bottom: #44344F solid 2px;
 }
 
-         .button {
-         background-color: #1c87c9;
+         button {
+         background-color: #D3FCD5;
          border: none;
-         color: white;
+         color: #44344F;
          padding: 20px 34px;
          text-align: center;
          text-decoration: none;
@@ -86,4 +74,6 @@ header p {
          font-size: 20px;
          margin: 4px 2px;
          cursor: pointer;
+         width: 300px;
+         border-radius: 7px;
          }
