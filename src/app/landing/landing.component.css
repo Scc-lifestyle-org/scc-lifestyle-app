@@ -1,4 +1,61 @@
 .seattlePic {
   height: 100%;
   width: 100%;
+  position: relative;
+}
+h1{
+  position:absolute;
+  top: 200px;
+  left: 100px;
+  width: 100%;
+}
+h1 span {
+  color: white;
+  font: bold 48px/73px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+h1 span.spacer{
+  padding: 0px;
+}
+.header {
+  margin-top: 30px;
+  padding: 60px;
+  text-align:center;
+  background: #1abc9c;
+  color:white;
+  font-size: 40px;
+  border: 5px solid black;
+}
+.header p {
+  font-size: 20px;
+}
+ div .column {
+  float: left;
+  width: 33.33%;
+  border: 5px solid black;
+  display: block;
+  margin: 25px 25px 25px 50px;
+  height:500px;
+  width:500px;
+}
+
+div .column h6,p{
+  text-align: center;
+  letter-spacing:0.5px;
+}
+/* Clear floats after the columns */
+div .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2{
+  text-align: center;
+}
+footer {
+  background-color: #1abc9c;
+  border: 5px solid black;
 }
