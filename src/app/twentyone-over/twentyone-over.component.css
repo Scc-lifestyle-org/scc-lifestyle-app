@@ -1,4 +1,4 @@
-.main-title, .main-head, .text, .title .caption {
+.main-title, .main-head, .text, .title .body  {
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -19,7 +19,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+  
 
 .main-title {
   position: absolute;
@@ -33,11 +33,14 @@
   text-align: center;
 }
 
-@media(max-width:568px){
+
+@media(max-width:914px){
   .body .main-head, .main-title, .head .title{
     background-attachment: scroll;
   }
 }
+
+
 .main-title span{ 
   
     background-color: rgba(18, 33, 44, 0.4);
@@ -68,6 +71,7 @@
   margin: 5px auto 5px auto;
   text-align: center;
   font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -98,7 +102,7 @@
 
 .container {
   position: relative;
-  width: 330px;
+  width: 331px;
   margin: 4%;
 }
 
